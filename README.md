@@ -6,7 +6,7 @@ The main model is described here:
 
 Morteza Rohanian and Julian Hough. Re-framing Incremental Deep Language Models for Dialogue Processing with Multi-task Learning. to appear at COLING 2020, Barcelona, December 2020
 
-This basis of these models is the experments in:
+The basis of these models is the experments in:
 
 Julian Hough and David Schlangen. Joint, Incremental Disfluency Detection and Utterance Segmentation from Speech. In Proceedings of EACL 2017, Valencia, April 2017.
 [https://github.com/clp-research/deep_disfluency]
