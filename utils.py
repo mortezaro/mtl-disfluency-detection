@@ -56,11 +56,6 @@ def make_dir(path):
         os.makedirs(path)
 
 
-def making_model():
-    input_ph, ground_truths_ph, ground_truths, pre_processed_input = dh.get_place_holders()
-    autoencoder = get_autoencoder(autoencoder_name, config.working_dataset, config.strided)
-    logits = autoencoder.inference(pre_processed_input)
-    return autoencoder, logits, input_ph, ground_truths_ph, ground_truths, pre_processed_input
 
 
 def get_run_list(logits, INF_FLAGS):
